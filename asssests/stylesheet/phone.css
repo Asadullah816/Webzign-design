@@ -1,0 +1,668 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap');
+
+
+
+@media(max-width:1399px)
+{
+    .fpara{
+        margin-right: 75px;
+    }
+}
+
+@media(max-width:1200px) and (min-width:768px) {
+    .overlay {
+        width: 97%;
+        height: 97%;
+    }
+    p{
+        font-size: 16px;
+        line-height: 24px;
+        font-weight: 400;
+    }
+
+    .overlaytext {
+        margin: 20px;
+
+    }
+
+    .overlaytext p {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+
+ 
+    .card-img-top {
+        margin-top: -120px;
+        padding: 30px;
+    }
+    .fpara{
+        margin-right: 5px;
+    }
+    .detail{
+        width: 33.5rem;
+    }
+    
+}
+
+
+
+@media (max-width: 767px) {
+    .image-container {
+        margin: 2px;
+    }
+
+    .overlay-text {
+        font-size: 16px;
+
+    }
+
+    .images {
+        object-fit: cover;
+        height: auto;
+        aspect-ratio: unset;
+    }
+    p{
+        font-size: 16px;
+        line-height: 24px;
+    }
+    
+}
+
+@media (max-width: 576px) {
+    
+    .image-container {
+        margin: 2px;
+    }
+
+    .overlay-text {
+        /* font-size: 12px; */
+        /* max-width: 80%;  */
+    }
+
+    .images {
+        object-fit: cover;
+        height: auto;
+        aspect-ratio: unset;
+    }
+    .imagescontainer{
+        display: none;
+    }
+    .card-container-2{
+        
+
+
+        
+    }
+    s
+    .card-title-1{
+        font-size: 20px;
+        font-weight: 600px;
+        padding-bottom: 20px;
+
+    }
+    .card-text-1{
+        font-size: 14px;
+        font-weight: 400px;
+        line-height: 24px;
+    }
+
+    .card_box{
+    
+    }
+    p{
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 24px;
+    }
+   
+}
+
+
+@media(max-width:1130px) {
+
+    /* ==================================IMAGES CONTAINER======================= */
+
+    .overlaytext p {
+        margin: 10px;/
+    }
+
+
+
+
+    /* =========================================END IMAGES CONTAINER================ */
+
+
+
+
+
+
+
+
+    /*================ CARDS =========================*/
+    /* .cards{
+        margin-bottom: 250px;
+
+    } */
+    .card-text {
+
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+    }
+
+    .cards {
+        margin-bottom: 160px;
+    }
+
+    .card-container {
+        /* padding: 100px; */
+    }
+
+    /* .card-img-top {
+        margin-top: -210px;
+        padding: 60px;
+    } */
+
+    /* =================================END CARDS====================== */
+}
+
+@media(max-width:768px) {
+    .navbar{
+        background-color: black;
+        opacity: 0.9;
+    }
+    
+    .para {
+        font-size: 16px;
+        margin: 0px;
+        line-height: 24px;
+        /* font-size: var(--fontsize); */
+        color: white;
+        font-weight: var(--fontweight);
+    }
+
+    /* #homebtn {
+        color: white;
+        font-weight: 600;
+        font-size: 15px;
+        line-height: 20px;
+    }
+
+    .homebutn {
+        font-size: 15px;
+        padding: 4px 24px;
+
+        text-transform: uppercase;
+        color: #FFFFFF;
+        background: #10468C;
+        border: none;
+    } */
+
+    .AH p {
+        line-height: 24px;
+        font-weight: 400;
+        font-size: 16px;
+        text-align: justify;
+
+        margin-top: 20px;
+    }
+
+
+
+    .card-img-top {
+        margin-top: -150px;
+        padding: 60px;
+    }
+
+
+    .heading {
+        margin-bottom: 10px;
+        color: white;
+        font-weight: 700;
+        font-size: 45px;
+        line-height: 47px;
+    }
+
+    .imagcontainer {
+
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+
+
+
+    }
+
+    .overlay-text {
+        margin: 30px;
+    }
+
+    .image-container img {
+        width: 500px;
+        height: 350px;
+    }
+
+    .image-overlay {
+        width: 500px;
+        height: 349px;
+        margin: 8px;
+    }
+
+    .image-overlay p {
+        font-size: 16px;
+        line-height: 24px;
+        padding: 0px;
+        margin: 0px;
+    }
+
+    .image-overlay h4 {
+        font-size: 16px;
+        margin: 0px;
+        padding: 0px;
+        line-height: 50px;
+    }
+
+
+
+
+
+
+    .fpara{
+        margin-right: 0px;
+    }
+
+    .fpara p {
+        font-size: 16px;
+        line-height: 24px;
+        font-weight: 400;
+
+    }
+
+    .logos {
+        padding-bottom: 25px;
+        margin-bottom: 0px;
+    }
+    #news{
+        margin-top: 0px;
+    }
+    .top h5{
+        margin-top: 80px;
+    }
+    .subscribe-button{
+        margin-left: -4px;
+        padding: 10px 25px;
+    }
+}
+
+
+@media(max-width:540px) {
+    .heading {
+        padding-bottom: 15px;
+        margin-bottom: 0px;
+        color: white;
+        font-weight: 700;
+        font-size: 25px;
+        line-height: 30px;
+    }
+
+    .para {
+        padding: 0px;
+        /* margin: 0px; */
+        font-size: 14px;
+        margin: 0px;
+        line-height: 24px;
+    }
+
+    /* #homebtn {
+        padding: 0px 0px 0px 0px;
+        margin-top: 25px;
+    }
+
+    .homebutn {
+        font-size: 10px;
+        margin-bottom: 0;
+        padding: 5px 25px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        background: #10468C;
+        border: none;
+    } */
+
+    /*========== ABOUT CONTAINER============ */
+    .about {
+        display: flex;
+        justify-content: flex-start;
+        width: 100%;
+        margin: auto;
+        margin-top: 50px;
+        align-items: center;
+    }
+
+
+
+    .AH h2 {
+        
+
+        font-size: 18px;
+        color: #10468C;
+        font-family: 'Poppins';
+        font-style: normal;
+
+        text-align: center;
+        font-weight: 700;
+        line-height: 24px;
+    }
+
+    .AH p {
+        width: 200%;
+        line-height: 24px;
+        font-weight: 400;
+        font-size: 14px;
+        text-align: justify;
+        margin-top: 20px;
+    }
+
+
+
+
+    /* ===============CARD SECTION========= */
+    .card-container {
+        padding: 0px;
+        margin-top: 170px;
+    }
+
+    .card-text {
+        font-size: 14px;
+        font-weight: 200;
+        line-height: 24px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+    /* =-=============IMAGES SECTION=============== */
+
+    .imagecontainer {
+        margin-top: 50px;
+    }
+
+
+
+    
+
+
+
+
+
+
+    .imagecontainer {
+        margin-top: 30px;
+    }
+
+    .image-container img {
+        width: 310px;
+        height: 230px;
+        margin: 12px;
+    }
+
+    .image-overlay {
+        width: 310px;
+        height: 230px;
+        margin: 9px;
+    }
+
+
+
+
+
+
+
+    .lasttext h4 {
+        margin-top: 70px;
+        font-size: 25px;
+        font-weight: 700;
+        line-height: 24px;
+        color: #10468C;
+    }
+
+    .texticon a {
+        font-size: 14px;
+
+    }
+}
+
+@media(max-width:540px) {
+    .image-container img {
+        width: 470px;
+        height: 320px;
+    }
+
+    .image-overlay {
+        width: 470px;
+        height: 320px;
+        margin: 9px;
+    }
+}
+
+
+
+
+
+@media(max-width:425px) {
+    .overlaytext {
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+
+    .overlaytext p {
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+    .fh1 {
+        font-size: 40px;
+
+
+    }
+    .card-container-2{
+        margin-top:-55px ;
+    }
+    p{
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 24px;
+    }
+    .card-text-1{
+        font-size: 14px;
+        line-height: 24px;
+        font-weight: 400;
+    }
+    .fpara p{
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 24px;
+    }
+
+}
+
+
+@media (min-width: 576px) {
+    .card-container-2 {
+      display: none;
+    }
+  }
+
+
+
+
+
+
+
+  @media(max-width:1024px) and (min-width:768px){
+    .imagescontainer{
+        margin-top: 50px;
+    }
+    .nav-item{
+        padding-right: 30px;
+    }
+    .headingtext p{
+        width: 65%;
+    }
+    .detail p{
+        margin-right:200px ;
+    }
+    .info{
+        padding-left: 0px;
+    }
+    .social{
+        padding-right: 10px;
+    }
+  }
+
+  @media (max-width: 768px){
+    .nav-item{
+        padding-bottom: 20px;
+    }
+    .AH h2{
+        /* padding-left: 40px; */
+    }
+    .headingtext p{
+        width: 75%;
+    }
+    .heading{
+        width: 25rem;
+    }
+  }
+
+  @media (max-width: 425px){
+    .nav-item{
+        padding-bottom: 20px;
+    }
+    .heading{
+        width: 17rem;
+        font-size: 32px;
+        line-height: 35px;
+    }
+
+    .AH h2{
+        width: 17rem;
+    }
+    .lasttext h4{
+        padding-left: 35px;
+    }
+    .AH h2{
+        padding-left: 100px;
+    }
+
+    .headingtext p{
+        width: 100%;
+    }
+   
+   
+
+
+    .cards{
+        padding: 10px;
+    }
+    .mid_cards{
+        margin-top: -35px;
+    }
+
+    .detail{
+        width: 25rem;
+        margin-top:30px;
+    }
+    .detail p{
+        margin: 0px;
+    }
+    .navig{
+        margin-top: -15px;
+    }
+    
+    .navigation{
+        margin-top: 50px;
+    }
+    .about{
+        margin-top: 70px;
+    }
+    .smallcards{
+        margin-top: -100px;
+    }
+    .email-input{
+        margin-right: -4px;
+        padding: 10px 32px;
+    }
+
+  }
+  @media (max-width: 375px){
+    .nav-item{
+        padding-bottom: 20px;
+    }
+    .AH h2{
+        padding-left: 75px;
+    }
+    .detail{
+        width: 22rem;
+    }
+    .email-subscription{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0px;
+    }
+    .email-input{
+        padding: 10px 17px;
+        margin-bottom: 10px;
+    }
+    .subscribe-button{
+        padding: 10px 15px;
+    }
+    
+    
+  
+  }
+
+  @media (max-width: 320px){
+    
+    
+    .nav-item{
+        padding-bottom: 20px;
+    }
+    .heading{
+        width: 15rem;
+    }
+
+    .AH h2{
+        padding-left:25px ;
+    }
+    #homebtn{
+        padding-top: 60px;
+    }
+    .detail{
+        width: 18rem;
+    }
+    .email-input{
+        padding: 10px 45px;
+        margin-bottom: 10px;
+    }
+   .subscribe-button{
+    padding: 10px 5px;
+   }
+   .email-input{
+    padding: 10px 0px;
+   }
+  }
+  @media(max-width:768px) and (min-width:450px){
+    .AH
+    {
+        width: auto;    
+    }
+}
